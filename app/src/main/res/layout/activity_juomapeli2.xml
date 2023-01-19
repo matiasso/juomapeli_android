@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/country_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/juomapeli2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Juomapeli2">
+
+        <TextView
+            android:id="@+id/textViewTurn"
+            android:layout_width="360dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:text="Paina ruutua aloittaaksesi"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewCardInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewCardInfo"
+            android:layout_width="360dp"
+            android:layout_height="36dp"
+            android:text="Muistathan juoda kohtuullisesti"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textViewSpecials"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTurn" />
+
+        <ImageView
+            android:id="@+id/imageViewCardBack"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline92v"
+            app:layout_constraintStart_toStartOf="@+id/guideline8v"
+            app:layout_constraintTop_toTopOf="@+id/guideline19h"
+            app:srcCompat="@drawable/back_red" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline92v"
+            app:layout_constraintStart_toStartOf="@+id/guideline8v"
+            app:layout_constraintTop_toTopOf="@+id/guideline19h"
+            app:srcCompat="@drawable/back_red" />
+
+        <TextView
+            android:id="@+id/textViewSpecials"
+            android:layout_width="360dp"
+            android:layout_height="42dp"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline19h"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCardInfo" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline19h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.19" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline8v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.08" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline92v"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.92" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

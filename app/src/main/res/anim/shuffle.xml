@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false">
+
+    <!--First right & up, then left & up, then left & down, then right & down-->
+    <translate
+        android:fromYDelta="0%"
+        android:toYDelta="-10%"
+        android:duration="140"
+        android:startOffset="100"></translate>
+    <translate
+        android:fromXDelta="0%"
+        android:toXDelta="10%"
+        android:fromYDelta="-10%"
+        android:toYDelta="0%"
+        android:duration="60"
+        android:startOffset="240"></translate>
+    <translate
+        android:fromXDelta="10%"
+        android:toXDelta="0%"
+        android:fromYDelta="0%"
+        android:toYDelta="10%"
+        android:duration="60"
+        android:startOffset="300"></translate>
+    <translate
+        android:fromXDelta="0%"
+        android:toXDelta="-10%"
+        android:fromYDelta="10%"
+        android:toYDelta="0%"
+        android:duration="60"
+        android:startOffset="360"></translate>
+    <translate
+        android:fromXDelta="-10%"
+        android:toXDelta="0%"
+        android:fromYDelta="0%"
+        android:toYDelta="-10%"
+        android:duration="60"
+        android:startOffset="420"></translate>
+
+
+    <translate
+        android:fromXDelta="0%"
+        android:toXDelta="10%"
+        android:fromYDelta="-10%"
+        android:toYDelta="0%"
+        android:duration="60"
+        android:startOffset="480"></translate>
+    <translate
+        android:fromXDelta="10%"
+        android:toXDelta="0%"
+        android:fromYDelta="0%"
+        android:toYDelta="10%"
+        android:duration="60"
+        android:startOffset="540"></translate>
+    <translate
+        android:fromXDelta="0%"
+        android:toXDelta="-10%"
+        android:fromYDelta="10%"
+        android:toYDelta="0%"
+        android:duration="60"
+        android:startOffset="600"></translate>
+    <translate
+        android:fromXDelta="-10%"
+        android:toXDelta="0%"
+        android:fromYDelta="0%"
+        android:toYDelta="-10%"
+        android:duration="60"
+        android:startOffset="660"></translate>
+    <translate
+        android:fromYDelta="-10%"
+        android:toYDelta="0%"
+        android:duration="260"
+        android:startOffset="720"></translate>
+
+</set>
